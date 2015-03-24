@@ -18,11 +18,14 @@ _version_ = "No_Smiley 0.1.0 alpha"
 #
 # PARAMETERS
 # dict of 'first_char': [possible_second_chars]
+#   :- :) :( :'( :') :p :P :d :D :o :O
+#   ;- ;)
+#   >.< >_< ><
 smileys = {
-	':' : ['-', ')', '(', 'p', 'P', 'd', 'D', 'o', 'O'], 
-	';' : ['-', ')'], 
-	'>' : ['.', '_', '<']
-	}
+    ':' : ['-', "'", ')', '(', 'p', 'P', 'd', 'D', 'o', 'O'], 
+    ';' : ['-', ')'], 
+    '>' : ['.', '_', '<']
+    }
 #
 # LOADING
 import os, sys, threading
